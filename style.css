@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px; 
+}
+
+
+img {
+    width: 350px;
+    height: 300px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    transition: 0.5s;
+}
+
+img:hover {
+    transform: rotateZ(23deg);
+}
